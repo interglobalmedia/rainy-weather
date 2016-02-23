@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+img {
+  background: url(../img/100_2473calmlg.jpg); // hack for Google Chrome but rainyday doesn't work locally
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+img h1 {
+  color: #afb075;
+  font-family: 'Roboto Slab', serif;
+  z-index: 1000;
+}
+
+#infobox {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#infobox div {
+  padding: 15px;
+  background: rgba(51, 51, 51, 0.7);
+  visibility: visible;
+}
+
+#infobox div h1 {
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  color: #afb075;
+  
+}
+#infobox:hover div {
+  visibility: visible;
+}
+
+#infobox div div {
+  color: #aaa;
+  font-family: 'Roboto Slab', serif;
+}
+
+span {
+  color: #fff;
+}
+
+#infobox div input,
+#infobox div button,
+#infobox div div {
+  visibility: hidden;
+}
+
+#infobox:hover div input,
+#infobox:hover div button,
+div span #name:hover,
+div span #weather:hover,
+div span #temp:hover {
+  visibility: visible;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Rainy Weather</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="fullheight" onload="run();">
+      <img id="rain" alt="" src="" />
+      <div id="infobox">
+        <div>
+          <h1>Today's Weather</h1>
+          <input id="city" type="text">
+          <button id="go" onclick="getData()">Go!</button>
+          <div>City: <span id="name"></span></div>
+          <div>Weather: <span id="weather"></span></div>
+          <div>Temp: <span id="temp"></span></div>
+
+          <img id="icon" />
+        </div>
+      </div>
+    </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/prefixfree.js"></script>
+      <script type="text/javascript" src="js/rainyday.js"></script>
+      <script type="text/javascript" src="js/rainyweather.js"></script>
+    </body>
+</html>
