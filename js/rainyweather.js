@@ -72,7 +72,7 @@ $(document).ready(function () {
     // Coordinates
 
     console.log(data.coord.lon + ", " + data.coord.lat);
-    $("#coords").html(data.coord.lon + ", " + data,coord.lat);
+    $("#coord").html(data.coord.lon + ", " + data,coord.lat);
      $("#icon").attr("src", "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png");
   }
 
