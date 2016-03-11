@@ -82,7 +82,7 @@ $(document).ready(function () {
     // Get the data from the openweathermap
     $.getJSON('http://api.openweathermap.org/data/2.5/weather',
       {
-        appid: "44db6a862fba0b067b1930da0d769e98",
+        appid: "7da60b5cf0ec35fbc6bf413b3c760ac6",
         q: city,
         units: "imperial" //farenheit/imperial units
       },
