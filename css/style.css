@@ -4,7 +4,7 @@
   margin: 0; }
 
 body {
-  background-image: no-repeat center center fixed; }
+  background-image: no-repeat center center; }
 
 img {
   background-image: url(../img/100_2473calmlg.jpg);
@@ -68,23 +68,25 @@ div span #temp:hover {
 #infobox:hover div h1 {
   background: transparent; }
 
-#credits {
-  z-index: 9999;
+.footer {
   position: absolute;
-  top: 93%;
+  right: 0;
+  bottom: 0;
   left: 0;
-  width: 100%; }
+  padding: 1rem;
+  background-color: #efefef;
+  color: #0d2647;
+  text-align: center; }
 
-#credits div {
-  margin: 0 auto; }
-
-#credits div p {
-  background: #fd2012;
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   font-family: 'Roboto Slab', serif;
-  color: #fff;
-  width: 100%;
-  padding: 10px 0 60px 0;
-  margin: 0 auto;
+  background-color: #fd2012;
+  color: #efefef;
   text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
