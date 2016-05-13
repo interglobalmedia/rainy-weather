@@ -74,16 +74,6 @@ div span #temp:hover {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
-  color: #0d2647;
-  text-align: center; }
-
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
   font-family: 'Roboto Slab', serif;
   background-color: #fd2012;
   color: #efefef;
