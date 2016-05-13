@@ -80,8 +80,10 @@ div span #temp:hover {
 #infobox:hover div h1 {
   background: transparent;
 }
+
 .footer {
   position: absolute;
+  z-index: 999;
   right: 0;
   bottom: 0;
   left: 0;
